@@ -1,0 +1,55 @@
+html{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.logo{
+    width: 120px ;
+    max-height: 100%;
+}
+
+.intro{
+    text-align: center;
+}
+
+.cripto-banner{
+    max-width: 100%;
+    
+}
+
+table th {
+    text-align: center;
+}
+
+
+.about-link{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+
+}
+
+td{
+    text-align: center ;
+}
+
+.about-bitcoin{
+    text-align: center;
+}
+
+.form-contact{
+    text-align: center;
+}

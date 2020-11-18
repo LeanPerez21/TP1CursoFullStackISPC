@@ -4,41 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CriptoARG</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
 </head>
-<body>
-    <nav>
-        <img src="img/dolar-criptomoneda-bitcoin-Argentina.jpg" style="height: 50px" alt="">
+
+<header class="hdr-nav">
+    <img class="logo" src="img/dolar-criptomoneda-bitcoin-Argentina.jpg" style="height: 50px" alt="">
+
+    <nav  >
+        <ul class="nav-inicio">
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="bitcoin.html">Bitcoin</a>
+            </li>
+            <li>
+                <a href="contacto.html">Contacto</a>
+            </li>
+        </ul>
     </nav>
-        <nav class="nav">
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="bitcoin.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+</header>
+
+<body>
+    
     
     <section class="intro">
 
-    <p> <strong>Hola! nosotros somos CriptoARG</strong> , un sitio web para todo lo relacionado a las criptomonedas en nuestro pais</p>
+    <p > <strong style="color: blue;" >Hola! nosotros somos CriptoARG</strong> , un sitio web para todo lo relacionado a las criptomonedas en nuestro pais</p>
     <p>Estamos para informate el valor actual de las cripto mas importantes del momento, valores tanto en pesos argentinos como en dolares.</p>
-    <p>Primero... ¿Que son las criptomonedas?</p>
+    <p style="color: blue;" > <Strong>Primero... ¿Que son las criptomonedas?</Strong> </p>
     <p>Una criptomoneda es una moneda digital diseñada para funcionar como medio de intercambio. Utiliza la criptografía para asegurar y verificar transacciones, así como para controlar la creación de nuevas unidades de una criptomoneda particular. </p>
     
-    <img src="img/criptosbanner.jpg" alt="Monedas virtuales" height="350px" width="550px">
+    <img class="cripto-banner" src="img/criptosbanner.jpg" alt="Monedas virtuales" height="350px" width="550px">
     </section>
 
-    <section>
+    <section class="criptoTable">
 
-        <h2>Valor actual de las criptomonedas mas importantes</h2>
+        <h2 style="text-align: center;" >Valor actual de las criptomonedas mas importantes</h2>
 
-        <table class="criptoTable" >
-        <tr >
+        <table class="tableValues" style="width: 100%; border: 2px solid black; border-radius: 5px;">
+        <tr style="background-color: gray; color: greenyellow;" >
           <th>Criptomoneda</th>
           <th>Simbolo</th>
           <th>Valor en USD</th>
@@ -83,11 +90,14 @@
        
       </table>   
 
-      <p>Informacion y valores sacados de la paginas web Investing y Ripio</p>
+      <div class="about-link" >
+      <h4>Informacion y valores sacados de la paginas web Investing y Ripio</h4>
 
-      <h4>Para acceder a Investing, haz click en el siguiente enlace <a href="https://es.investing.com/crypto/">Investing</a></h4>
-      <h4>Para acceder a Ripio, haz click en el siguiente enlace <a href="https://www.ripio.com/ar/criptomonedas/cotizacion/">Ripio</a></h4>
-
+      <p>Para acceder a Investing, haz click en el siguiente enlace 
+        <a class="btn" target="_blank" href="https://es.investing.com/crypto/">Investing</a></p>
+      <p>Para acceder a Ripio, haz click en el siguiente enlace
+         <a class="btn" target="_blank" href="https://www.ripio.com/ar/criptomonedas/cotizacion/">Ripio</a></p>
+      </div>
       <footer>
         <p>Copyright (c) 2020-2020</p>
       </footer>
